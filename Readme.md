@@ -4,6 +4,8 @@
 
 This project provides Matlab code and verification data for paper entitled "**A joint calibration method for monocular speckle structured light system**".
 
+A preprint version of our paper can be found at [https://doi.org/10.1364/opticaopen.25507099](https://doi.org/10.1364/opticaopen.25507099).
+
 ## Usage
 
 Run `run_all.m` to begin.

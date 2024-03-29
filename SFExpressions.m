@@ -1,5 +1,7 @@
 function [W,dFdWdP,SFPVec2Mat,Mat2SFPVec,StopCrit]=SFExpressions(SFOrder)
-% Code from Atkinson, D.; Becker, T. A 117 Line 2D Digital Image Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.switch SFOrder
+% Code from Atkinson, D.; Becker, T. A 117 Line 2D Digital Image
+% Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.
+switch SFOrder
     case 0 % Zero order SF
         W=@(dX,dY,P) [P(1)+dX,P(7)+dY]; % Equation (14)
         dFdWdP=@(dX,dY,dfdx,dfdy) [dfdx,dfdy];

@@ -1,5 +1,5 @@
 function [P,C,iter,StopVal]=SubCorr(InterpCoef,f,dfdx,dfdy,SubSize,SFOrder,Xos,dX,dY,P,StopCritVal)
-% Code from Atkinson, D.; Becker, T. A 117 Line 2D Digital Image Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.switch SFOrder
+% Code from Atkinson, D.; Becker, T. A 117 Line 2D Digital Image Correlation Code Written in MATLAB. Remote Sens. 2020, 12, 2906.
 [W,dFdWdP,SFPVec2Mat,Mat2SFPVec,StopCrit]=SFExpressions(SFOrder); % Section 3.2.4
 dfdWdP=dFdWdP(dX(:),dY(:),dfdx(:),dfdy(:));
 Hinv=inv(dfdWdP'*dfdWdP); % inverse of Equation (20)

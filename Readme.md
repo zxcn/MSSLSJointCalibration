@@ -44,12 +44,17 @@ Run `run_all.m` to begin.
 `./images/Real` gives real data to verify the feasibility and accuracy of our method. The spacing of the circle grid pattern in `./image/Real/AccuracyTest/` is 20mm.
 
 ## License
+The core algorithm included in this repository is covered by authorized Chinese Invention Patent ZL 2024 1 0309840.X.
 
-Note that use of this code falls under the GNU GENERAL PUBLIC LICENSE Version 3. Furthermore, note that in the case of using this code for works related to publications (scientific or otherwise) requires citing of the source paper (citation given below).
+Non-commercial Use: Free access & modification permitted for academic research, student coursework, non-profit scientific projects without any commercial revenue, no patent license required.
+
+Commercial Use Required Official License: Any commercial deployment including industrial 3D inspection equipment, structured-light scanner, paid software, mass-produced hardware, SaaS service needs a written patent licensing agreement signed with patent owner in advance. Unauthorized commercial implementation constitutes patent infringement under Chinese Patent Law and related international IP regulations. For commercial licensing inquiry: jzx345@163.com
+
+Furthermore, note that in the case of using this code for works related to publications (scientific or otherwise) requires citing of the source paper (citation given below).
 
 ## Cite
 
-TODO
+“A joint calibration method for monocular speckle structured light system,” Optica Open, (2024), https://doi.org/10.1364/opticaopen.25507099.
 
 ## Contact
 
